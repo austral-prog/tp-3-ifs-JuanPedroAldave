@@ -1,10 +1,10 @@
-from tkinter.filedialog import dialogstates
+
 
 
 def weekday():
 
-    Dia = input().lower()
-    if not (Dia == "sabado" or Dia == "domingo"):
+    dia = input().lower()
+    if not (dia == "sabado" or dia == "domingo"):
         print("Dia habil")
     else:
         print("Fin de semana")
