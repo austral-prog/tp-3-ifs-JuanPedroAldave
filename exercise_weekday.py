@@ -1,3 +1,6 @@
+from tkinter.filedialog import dialogstates
+
+
 def weekday():
     """
     Ejercicio 6 - Día Hábil
@@ -17,4 +20,10 @@ def weekday():
         Para la entrada "domingo", la salida esperada es:
         Fin de semana
     """
-    pass
+    Dia = input().lower()
+    if not (Dia == "sabado" or Dia == "domingo"):
+        print("Dia habil")
+    else:
+        print("Fin de semana")
+
+
